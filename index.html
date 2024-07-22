@@ -10,31 +10,32 @@
 </head>
 <body>
 <!-- Componente NavBar -->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">CILSA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#carouselExampleIndicators">Inicio</a>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom-height d-flex align-items-center fixed-top">
+  <div class="container-fluid">
+      <img src="cilsa-icon.jpeg" alt="Icon" style="width:70px; height:70px;">
+      <button class="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav px-4">
+              <li class="nav-item px-4">
+                  <a class="nav-link  " href="#carouselExampleIndicators" aria-current="page">Inicio</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Perfil/perfil.html" target="_self">Perfiles</a>
+              <li class="nav-item px-4">
+                  <a class="nav-link" href="Perfil/perfil.html" target="_self">Perfil</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Formulario/formulario.html">Contacto</a>
+              <li class="nav-item px-4"> 
+                  <a class="nav-link" href="Formulario/formulario.html" target="_self">Contacto</a>
               </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+          </ul>  
+      </div>
+  </div>
+</nav>
 
     <!-- Componente Carrusel -->
-    <div class="container w-80">
-      <div id="carouselExampleIndicators" class="carousel slide ">
+    <div class="container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -42,15 +43,14 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Carousel/img/danial-igdery-FCHlYvR5gJI-unsplash.jpg" class="d-block w-100" alt="Imagen 1" id="carouselImg">
+            <img src="Carousel/img/danial-igdery-FCHlYvR5gJI-unsplash.jpg" class="d-block w-100 img-fluid" alt="Imagen 1">
           </div>
           <div class="carousel-item">
-            <img src="Carousel/img/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg" class="d-block w-100" alt="Imagen 2" id="carouselImg">
+            <img src="Carousel/img/fotis-fotopoulos-DuHKoV44prg-unsplash.jpg" class="d-block w-100 img-fluid" alt="Imagen 2">
           </div>
           <div class="carousel-item">
-            <img src="Carousel/img/imagen3.png" class="d-block w-100" alt="Imagen 3" id="carouselImg">
+            <img src="Carousel/img/imagen3.png" class="d-block w-100 img-fluid" alt="Imagen 3">
           </div>
-  
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>

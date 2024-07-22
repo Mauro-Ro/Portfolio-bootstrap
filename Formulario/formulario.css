@@ -5,7 +5,7 @@
     font-family: "Roboto Slab", serif;
 }
 body{
-    background-color: #eaeaea;
+    background-color: #ffffff;
 }
             /* navbar */
 #navbarNav{
@@ -14,12 +14,6 @@ body{
 .navbar-custom-height {
     height: 100px;
 }
-/* .nav-item{
-    padding: 0px 70px;
-} */
-/* #navbar-logo{
-    padding: 0px 300px;
-} */
 
             /* formulario */
 #form{
