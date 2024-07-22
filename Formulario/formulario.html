@@ -11,30 +11,32 @@
 <body>
 
 <!-- Componente NavBar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="#">CILSA</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom-height d-flex align-items-center">
+    <div class="container-fluid">
+        <a class="navbar-brand container" id="navbar-logo" href="#">Logo</a>
+        <button class="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../Perfil/perfil.html" target="_self">Perfiles</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="formulario.html">Contacto</a>
-            </li>
-            </ul>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav px-4">
+                <li class="nav-item px-4">
+                    <a class="nav-link  "  aria-current="page" href="#carouselExampleIndicators">Inicio</a>
+                </li>
+                <li class="nav-item px-4">
+                    <a class="nav-link" href="perfil.html" target="_self">Perfil</a>
+                </li>
+                <li class="nav-item px-4"> 
+                    <a class="nav-link" href="formulario.html" target="_self">Contacto</a>
+                </li>
+            </ul>  
         </div>
-        </div>
-    </nav>
+    </div>
+</nav>
 
 <!-- Componente Formulario de Contacto -->
-<div class="container d-grid justify-content-center align-items-center" id="form">
+
+<div class="container d-grid justify-content-center align-items-center " id="form">
     <div class="container mt-5" id="border">
         <form class="needs-validation" novalidate>
             <h2 class="text-start">Contáctanos</h2>
