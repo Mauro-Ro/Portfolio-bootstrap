@@ -15,7 +15,15 @@ body{
 .navbar-custom-height {
     height: 100px;
 }
-
+#icon-cilsa{
+    border-radius: 20px;
+}
+#navbar1{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.nav-link{
+    color: #e5e5e5;
+}
         /* carousel */
 .carousel-inner img {
     width: 100%;
@@ -29,3 +37,4 @@ padding: 0;
 .carousel {
 margin: 0 auto;
 }
+

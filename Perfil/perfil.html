@@ -9,18 +9,25 @@
     <link rel="icon" href="../cilsa-icon.jpeg">
 </head>
 <body>
+<!-- Componente background con movimiento -->
+<div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
+
 <!-- Componente NavBar -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom-height d-flex align-items-center">
+<nav class="navbar navbar-expand-lg navbar-light  navbar-custom-height d-flex align-items-center" id="navbar1">
     <div class="container-fluid">
-        <img src="cilsa-icon.jpeg" alt="Icon" style="width:70px; height:70px;">
+        <img src="cilsa-icon.jpeg" alt="Icon" style="width:70px; height:70px;" id="icon-cilsa">
         <button class="navbar-toggler" type="button " data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav px-4">
                 <li class="nav-item px-4">
-                    <a class="nav-link  " href="#carouselExampleIndicators" aria-current="page">Inicio</a>
+                    <a class="nav-link" href="#carouselExampleIndicators" aria-current="page">Inicio</a>
                 </li>
                 <li class="nav-item px-4">
                     <a class="nav-link" href="Perfil/perfil.html" target="_self">Perfil</a>
@@ -35,18 +42,21 @@
 
 <div class="d-flex justify-content-center align-items-center flex-row mt-5 flex-wrap">
     <div class="card m-5" style="width: 18rem;">
-        <img src="img/mauro2.png" class="card-img-top" alt="Imagen Mauro">
-        <div class="card-body">
-            <h5 class="card-title">Mauro Rosales</h5>
-            <p class="card-text">Desarrollador Fullstack<br>JavaScript | React | Python</p>
-            <a href="https://www.linkedin.com/in/mauro-rosales-275978179/" target="_blank" class="btn btn-outline-secondary">Linkedin</a>
-            <a href="https://github.com/Mauro-Ro" target="_blank" class="btn btn-outline-secondary">GitHub</a>
+        <img src="img/mauro2.png" class="card-img-top border rounded-top-3" alt="Imagen Mauro">
+        <div class="card">
+            <div class="card-body border rounded-bottom-3">
+                <h5 class="card-title">Mauro Rosales</h5>
+                <p class="card-text">Desarrollador Fullstack<br>JavaScript | React | Python</p>
+                <a href="https://www.linkedin.com/in/mauro-rosales-275978179/" target="_blank" class="btn btn-outline-secondary me-2">Linkedin</a>
+                <a href="https://github.com/Mauro-Ro" target="_blank" class="btn btn-outline-secondary">GitHub</a>
+            </div>
         </div>
     </div>
+    
 
     <div class="card" style="width: 18rem;">
-        <img src="img/matias.jpeg"  class="card-img-top" alt="Imagen Matias">
-        <div class="card-body">
+        <img src="img/matias.jpeg"  class="card-img-top border rounded-top-3" alt="Imagen Matias">
+        <div class="card-body border rounded-bottom-3">
             <h5 class="card-title">Matias Perez</h5>
             <p class="card-text">Desarrollador Backend Java<br>Java | Spring Boot | React</p>
             <a href="https://www.linkedin.com/in/matiasezequielperez/" target="_blank" class="btn btn-outline-secondary">Linkedin</a>
@@ -55,7 +65,7 @@
     </div>
 </div>
 
-<div class="containet text-center bg-dark w-100 mt-5" style="color: #fff !important" id="footer">© Desarrollado por Mauro Rosales y Matias Perez</div>
+<div class="container text-center mt-5" style="color:rgb(255, 255, 255)f !important" id="footer">© Desarrollado por Mauro Rosales y Matias Perez</div> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 
